@@ -53,7 +53,7 @@ Body:
             Rate: 25000
           - Index: 1
             Item: Huuma_Bird_Wing_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: Turtle_Is_Box_IL
@@ -62,7 +62,7 @@ Body:
         Drops:
           - Index: 0
             Item: Fancy_Flower_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
@@ -73,7 +73,7 @@ Body:
         Drops:
           - Index: 0
             Item: Immaterial_Sword_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -85,14 +85,14 @@ Body:
         Drops:
           - Index: 0
             Item: Iron_Driver_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
             Rate: 25000
           - Index: 2
             Item: War_Axe_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 3
             Item: Turtle_Is_Box_IL
@@ -101,7 +101,7 @@ Body:
         Drops:
           - Index: 0
             Item: Pole_Axe_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -149,7 +149,7 @@ Body:
             Rate: 25000
           - Index: 1
             Item: Huuma_Bird_Wing_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: Turtle_Is_Box_IL
@@ -158,7 +158,7 @@ Body:
         Drops:
           - Index: 0
             Item: Fancy_Flower_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
@@ -169,7 +169,7 @@ Body:
         Drops:
           - Index: 0
             Item: Immaterial_Sword_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -181,14 +181,14 @@ Body:
         Drops:
           - Index: 0
             Item: Iron_Driver_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
             Rate: 25000
           - Index: 2
             Item: War_Axe_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 3
             Item: Turtle_Is_Box_IL
@@ -197,7 +197,7 @@ Body:
         Drops:
           - Index: 0
             Item: Pole_Axe_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -242,7 +242,7 @@ Body:
         Drops:
           - Index: 0
             Item: Balistar_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -254,11 +254,11 @@ Body:
         Drops:
           - Index: 0
             Item: Book_Of_The_Apo_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: Ghoul_Leg_IL
-            Rate: 25
+            Rate: 5000
           - Index: 2
             Item: IllusionStone
             Rate: 25000
@@ -269,7 +269,7 @@ Body:
         Drops:
           - Index: 0
             Item: Cape_Of_Ancient_Lord_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
@@ -280,11 +280,11 @@ Body:
         Drops:
           - Index: 0
             Item: Infiltrator_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: Skul_Ring_IL
-            Rate: 25
+            Rate: 5000
           - Index: 2
             Item: IllusionStone
             Rate: 25000
@@ -295,13 +295,13 @@ Body:
         Drops:
           - Index: 0
             Item: Ring_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
           - Index: 2
             Item: Wizardy_Staff_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 3
             Item: Vampire_Box_IL
@@ -387,7 +387,7 @@ Body:
         Drops:
           - Index: 0
             Item: Puente_Robe_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
@@ -398,10 +398,10 @@ Body:
         Drops:
           - Index: 0
             Item: Nurse_Cap_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: Shoes_IL
-            Rate: 25
+            Rate: 5000
           - Index: 2
             Item: IllusionStone
             Rate: 25000
@@ -412,11 +412,11 @@ Body:
         Drops:
           - Index: 0
             Item: Long_Mace_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: Spectral_Spear_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: IllusionStone
@@ -428,11 +428,11 @@ Body:
         Drops:
           - Index: 0
             Item: Moonlight_Sword_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: Muffler_IL
-            Rate: 25
+            Rate: 5000
           - Index: 2
             Item: IllusionStone
             Rate: 25000
@@ -443,10 +443,10 @@ Body:
         Drops:
           - Index: 0
             Item: Apple_Of_Archer_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: Staff_Of_Bordeaux_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 2
             Item: IllusionStone
@@ -466,7 +466,7 @@ Body:
             Rate: 25000
           - Index: 2
             Item: Clack_Of_Servival_IL
-            Rate: 25
+            Rate: 5000
       - Monster: ILL_SNOWIER
         Drops:
           - Index: 0
@@ -474,10 +474,10 @@ Body:
             Rate: 1000
           - Index: 1
             Item: Cap_IL
-            Rate: 25
+            Rate: 5000
           - Index: 2
             Item: Huuma_Flutter_Snow_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 3
             Item: IllusionStone
@@ -489,11 +489,11 @@ Body:
             Rate: 1000
           - Index: 1
             Item: Combo_Battle_Glove_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: Herald_Of_GOD_IL
-            Rate: 25
+            Rate: 5000
           - Index: 3
             Item: IllusionStone
             Rate: 25000
@@ -539,7 +539,7 @@ Body:
             Rate: 25000
           - Index: 1
             Item: Tablet_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: Luanda_Box_IL
@@ -548,7 +548,7 @@ Body:
         Drops:
           - Index: 0
             Item: Hunter_Bow_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -560,7 +560,7 @@ Body:
         Drops:
           - Index: 0
             Item: Hunter_Bow_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -590,7 +590,7 @@ Body:
         Drops:
           - Index: 0
             Item: Hunter_Bow_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -605,7 +605,7 @@ Body:
             Rate: 25000
           - Index: 1
             Item: Tablet_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: Luanda_Box_IL
@@ -617,7 +617,7 @@ Body:
             Rate: 25000
           - Index: 1
             Item: Tablet_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: Luanda_Box_IL
@@ -646,7 +646,7 @@ Body:
         Drops:
           - Index: 0
             Item: Electric_Eel_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -658,7 +658,7 @@ Body:
         Drops:
           - Index: 0
             Item: Saint_Robe_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
@@ -669,7 +669,7 @@ Body:
         Drops:
           - Index: 0
             Item: KatarOfCold_Icicle_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -681,7 +681,7 @@ Body:
         Drops:
           - Index: 0
             Item: Water_Sprits_Armor_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
@@ -695,7 +695,7 @@ Body:
             Rate: 25000
           - Index: 1
             Item: Zephyrus_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: Underwater_Box_IL
@@ -738,7 +738,7 @@ Body:
         Drops:
           - Index: 0
             Item: Electronic_Guitar_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -758,7 +758,7 @@ Body:
         Drops:
           - Index: 0
             Item: Brionac_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -770,7 +770,7 @@ Body:
         Drops:
           - Index: 0
             Item: Chain_Mail_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
@@ -781,7 +781,7 @@ Body:
         Drops:
           - Index: 0
             Item: Death_Guidance_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -1925,7 +1925,7 @@ Body:
         Drops:
           - Index: 0
             Item: Excalibur_IL
-            Rate: 10
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -1934,7 +1934,7 @@ Body:
         Drops:
           - Index: 0
             Item: Doom_Slayer_IL
-            Rate: 10
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -1957,7 +1957,7 @@ Body:
         Drops:
           - Index: 0
             Item: Sprint_Mail_IL
-            Rate: 10
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
@@ -1965,7 +1965,7 @@ Body:
         Drops:
           - Index: 0
             Item: Gelerdria_IL
-            Rate: 10
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -1988,7 +1988,7 @@ Body:
             Rate: 25000
           - Index: 1
             Item: Thorn_Staff_IL
-            Rate: 10
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 2
             Item: Twins_Box_IL
@@ -1997,7 +1997,7 @@ Body:
         Drops:
           - Index: 0
             Item: Ancient_Dagger_IL
-            Rate: 10
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -2006,7 +2006,7 @@ Body:
         Drops:
           - Index: 0
             Item: Sprint_Ring_IL
-            Rate: 10
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
             Rate: 25000
@@ -2021,7 +2021,7 @@ Body:
             RandomOptionGroup: ILL_MAGIC_BOSS
           - Index: 1
             Item: Dea_Staff_IL
-            Rate: 2500
+            Rate: 500000
             RandomOptionGroup: ILL_MAGIC_BOSS
           - Index: 2
             Item: Doom_Slayer_IL
@@ -2470,7 +2470,7 @@ Body:
         Drops:
           - Index: 0
             Item: Gold_Lux_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -2482,7 +2482,7 @@ Body:
         Drops:
           - Index: 0
             Item: Bazerald_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -2497,7 +2497,7 @@ Body:
             Rate: 25000
           - Index: 1
             Item: Taegoolyeon_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: Labyrinth_Box_IL
@@ -2506,7 +2506,7 @@ Body:
         Drops:
           - Index: 0
             Item: Butcher_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -2521,7 +2521,7 @@ Body:
             Rate: 25000
           - Index: 1
             Item: Taegoolyeon_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 2
             Item: Labyrinth_Box_IL
@@ -2530,7 +2530,7 @@ Body:
         Drops:
           - Index: 0
             Item: Butcher_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -2542,7 +2542,7 @@ Body:
         Drops:
           - Index: 0
             Item: Bazerald_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -2554,7 +2554,7 @@ Body:
         Drops:
           - Index: 0
             Item: Gold_Lux_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
@@ -2568,113 +2568,113 @@ Body:
         Drops:
           - Index: 0
             Item: IllusionStone
-            Rate: 10
+            Rate: 25000
           - Index: 1
             Item: Survival_Staff_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 2
             Item: Teddy_Bear_Box_IL
-            Rate: 5
+            Rate: 1000
       - Monster: ILL_MINERAL
         Drops:
           - Index: 0
             Item: IllusionStone
-            Rate: 10
+            Rate: 25000
           - Index: 1
             Item: Survival_Staff_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 2
             Item: Teddy_Bear_Box_IL
-            Rate: 5
+            Rate: 1000
       - Monster: ILL_PITMAN
         Drops:
           - Index: 0
             Item: Gate_KeeperDD_IL
-            Rate: 10
+            Rate: 5000
           - Index: 2
             Item: Teddy_Bear_Box_IL
-            Rate: 5
+            Rate: 1000
       - Monster: ILL_TEDDY_BEAR_R
         Drops:
           - Index: 0
             Item: Headband_Of_Power_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
-            Rate: 10
+            Rate: 25000
           - Index: 2
             Item: Teddy_Bear_Box_IL
-            Rate: 5
+            Rate: 1000
       - Monster: ILL_TEDDY_BEAR_Y
         Drops:
           - Index: 0
             Item: Boots_IL
-            Rate: 25
+            Rate: 5000
           - Index: 1
             Item: IllusionStone
-            Rate: 10
+            Rate: 25000
           - Index: 2
             Item: Teddy_Bear_Box_IL
-            Rate: 5
+            Rate: 1000
       - Monster: ILL_TEDDY_BEAR_W
         Drops:
           - Index: 0
             Item: Counter_Dagger_IL
-            Rate: 10
+            Rate: 5000
           - Index: 2
             Item: Teddy_Bear_Box_IL
-            Rate: 5
+            Rate: 1000
       - Monster: ILL_OBSIDIAN
         Drops:
           - Index: 0
             Item: Counter_Dagger_IL
-            Rate: 25
+            Rate: 5000
             RandomOptionGroup: ILL_PHYSIC_NORMAL
           - Index: 1
             Item: IllusionStone
-            Rate: 10
+            Rate: 25000
           - Index: 2
             Item: Teddy_Bear_Box_IL
-            Rate: 5
+            Rate: 1000
       - Monster: ILL_TEDDY_BEAR_G
         Drops:
           - Index: 0
             Item: Gate_KeeperDD_IL
-            Rate: 10
+            Rate: 5000
           - Index: 2
             Item: Teddy_Bear_Box_IL
-            Rate: 5
+            Rate: 1000
       - Monster: ILL_TEDDY_BEAR_S
         Drops:
           - Index: 0
             Item: Boots_IL
-            Rate: 5000
+            Rate: 50000
           - Index: 1
             Item: Counter_Dagger_IL
-            Rate: 5000
+            Rate: 50000
             RandomOptionGroup: ILL_PHYSIC_BOSS
           - Index: 2
             Item: Gate_KeeperDD_IL
-            Rate: 5000
+            Rate: 50000
             RandomOptionGroup: ILL_PHYSIC_BOSS
           - Index: 3
             Item: Headband_Of_Power_IL
-            Rate: 5000
+            Rate: 50000
           - Index: 4
             Item: IllusionStone
-            Rate: 5000
+            Rate: 50000
           - Index: 5
             Item: IllusionStone
-            Rate: 10000
+            Rate: 25000000
           - Index: 6
             Item: IllusionStone
             Rate: 15000
           - Index: 7
             Item: Survival_Staff_IL
-            Rate: 25
+            Rate: 50000
             RandomOptionGroup: ILL_MAGIC_NORMAL
           - Index: 8
             Item: S_Teddy_Bear_Box_IL
-            Rate: 150
+            Rate: 100000
