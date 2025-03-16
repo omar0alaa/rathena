@@ -145,6 +145,21 @@ Body:
     Buy: 20
     Weight: 10
 
+#Edda Somotolgy
+  - Id: 23993
+    AegisName: Somatology_Data_Box
+    Name: Somatology Data Box
+    Type: Usable
+    Weight: 10
+    Script: |
+      setarray .@weapon,21051,21052,32023,1333,16092,28138,28765,28766,28044,28042,26158,2055,2056,26161,2057,16095,18185,18187,18186,32350,32024,32025,32351,16093,16094,28767,28768,18184,28633,26159,26160,1865,1866,16096,18188,26212,26213,32107,32108; getitem .@weapon[rand(getarraysize(.@weapon))],1;
+  - Id: 23994
+    AegisName: Somatology_Material_Box
+    Name: Somatology Material Box
+    Type: Usable
+    Weight: 10
+    Script: |
+      getitem 25786,rand(1,10); getitem 25787,rand(1,10);
 
 # THQ Quest Items
 #=============================================================

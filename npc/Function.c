@@ -280,3 +280,7 @@ function	script	instance_effect	{
 -	script	dummynpc2	-1,{ 
 	end; 
 }
+
+-	script	instancedummynpc	-1,{
+    end;
+}

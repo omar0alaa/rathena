@@ -36,7 +36,6 @@ prontera,149,167,4	script	Instance Manager	10295,{
 			}
 		}
 	}
-	continue;
 	// Notify the player about the reset
 	mes "[ Instance Manager ]";
 	mes "All instances have been reset!";

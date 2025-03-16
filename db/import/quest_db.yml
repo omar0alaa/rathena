@@ -50,7 +50,7 @@ Header:
   Version: 3
 
 Body:
-#OGH Hard
+  #OGH Hard
   - Id: 12334
     Title: Trace of Time Travel
     TimeLimit: +70h
@@ -70,7 +70,7 @@ Body:
     Title: Time Traveler
   - Id: 12339
     Title: Time Conqueror
-#Edda
+  #Edda
   - Id: 12457
     Title: Glastheim's Fall
   - Id: 12458
@@ -80,10 +80,10 @@ Body:
     Targets:
       - Mob: MD_GH_KING_SCHMIDT_N
         Count: 1
-  - Id: 12460                                  
+  - Id: 12460
     Title: Purification of Glastheim - Cooldown
     TimeLimit: 4h
-  - Id: 12461                                  
+  - Id: 12461
     Title: Purification of Glastheim Hard- Cooldown
     TimeLimit: 4h
   - Id: 12462
@@ -91,3 +91,31 @@ Body:
     Targets:
       - Mob: MD_GH_KING_SCHMIDT_H
         Count: 1
+  #Edda Somatology
+  - Id: 16388
+    Title: Edda Somatology First Exploration
+  - Id: 16389
+    Title: Edda Somatology - Declined
+  - Id: 16390
+    Title: Edda Somatology - Standby
+    TimeLimit: 4h
+  - Id: 16391
+    Title: ???
+  - Id: 16392
+    Title: Edda Somatology - Reward
+  - Id: 16393
+    Title: Edda Somatology - Swordsman
+  - Id: 16394
+    Title: Edda Somatology - Acolyte
+  - Id: 16395
+    Title: Edda Somatology - Thief
+  - Id: 16396
+    Title: Edda Somatology - Magician
+  - Id: 16397
+    Title: Edda Somatology - Merchant
+  - Id: 16398
+    Title: Edda Somatology - Archer
+  - Id: 16399
+    Title: Edda Somatology - Exploration Mode
+  - Id: 16400
+    Title: Edda Somatology - Combat Mode

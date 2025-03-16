@@ -71,3 +71,12 @@ Body:
       Map: 1@gl_prq
       X: 299
       Y: 18
+
+  - Id: 65
+    Name: Journey of Expedition
+    Enter:
+      Map: 1@gol1
+      X: 198
+      Y: 35
+    AdditionalMaps:
+       1@gol2: true

@@ -195,7 +195,7 @@ Body:
         Rate: 500
   - Id: 3141
     AegisName: MG_GHOUL_H
-    Name: Grand Chamberlain in pain
+    Name: Grand Chamberlain
     JapaneseName: Grand Chamberlain
     Level: 162
     Hp: 416200
@@ -367,7 +367,7 @@ Body:
   - Id: 3145
     AegisName: MG_KNIGHT_OF_ABYSS_H
     Name: Corrupted Abysmal Knight
-    JapaneseName: Corrupted Knight of Abyss
+    JapaneseName: Corrupted Abysmal Knight
     Level: 172
     Hp: 451578
     BaseExp: 58584
@@ -995,8 +995,278 @@ Body:
       IgnoreMisc: true
       IgnoreRanged: true
 
-
-
+#Edda Somotolgy
+  - Id: 20536
+    AegisName: MD_ED_B_YGNIZEM
+    Name: Nameless Swordsman
+    Level: 180
+    Hp: 15000000
+    Attack: 5030
+    Attack2: 7451
+    Defense: 585
+    MagicDefense: 235
+    Str: 290
+    Agi: 227
+    Vit: 254
+    Int: 219
+    Dex: 429
+    Luk: 196
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 120
+    AttackDelay: 421
+    AttackMotion: 432
+    DamageMotion: 288
+    Ai: 09
+    Class: Boss
+    Modes:
+      Assist: true
+      FixedItemDrop: true
+      Mvp: true
+    Drops:
+      - Item: Somatology_Data_Box
+        Rate: 2000
+      - Item: Somatology_Material_Box
+        Rate: 2000
+      - Item: Subject_Aura
+        Rate: 10
+  - Id: 20537
+    AegisName: MD_ED_YGNIZEM
+    Name: Nameless Swordsman
+    Level: 176
+    Hp: 1519762
+    Attack: 4422
+    Attack2: 6573
+    Defense: 340
+    MagicDefense: 109
+    Str: 246
+    Agi: 207
+    Vit: 216
+    Int: 186
+    Dex: 364
+    Luk: 81
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 120
+    AttackDelay: 576
+    AttackMotion: 432
+    DamageMotion: 288
+    Ai: 09
+    Modes:
+      Assist: true
+    Drops:
+      - Item: Particles_Of_Energy3
+        Rate: 100
+  - Id: 20538
+    AegisName: MD_ED_EREND
+    Name: Nameless Acolyte
+    Level: 176
+    Hp: 1500487
+    Attack: 3085
+    Attack2: 4485
+    Defense: 278
+    MagicDefense: 113
+    Str: 109
+    Agi: 81
+    Vit: 127
+    Int: 205
+    Dex: 185
+    Luk: 81
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Holy
+    ElementLevel: 2
+    WalkSpeed: 120
+    AttackDelay: 532
+    AttackMotion: 400
+    DamageMotion: 288
+    Ai: 09
+    Modes:
+      Assist: true
+    Drops:
+      - Item: Particles_Of_Energy3
+        Rate: 100
+  - Id: 20539
+    AegisName: MD_ED_ARMAIA
+    Name: Nameless Merchant
+    Level: 175
+    Hp: 1507840
+    Attack: 3951
+    Attack2: 5751
+    Defense: 397
+    MagicDefense: 103
+    Str: 176
+    Agi: 73
+    Vit: 121
+    Int: 93
+    Dex: 206
+    Luk: 81
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Earth
+    ElementLevel: 2
+    WalkSpeed: 120
+    AttackDelay: 576
+    AttackMotion: 400
+    DamageMotion: 288
+    Ai: 09
+    Modes:
+      Assist: true
+    Drops:
+      - Item: Particles_Of_Energy3
+        Rate: 100
+  - Id: 20540
+    AegisName: MD_ED_EREMES
+    Name: Eremes Guile
+    Level: 178
+    Hp: 1518427
+    Attack: 3156
+    Attack2: 4567
+    Defense: 313
+    MagicDefense: 102
+    Str: 189
+    Agi: 160
+    Vit: 77
+    Int: 87
+    Dex: 249
+    Luk: 93
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Poison
+    ElementLevel: 4
+    WalkSpeed: 120
+    AttackDelay: 86
+    AttackMotion: 384
+    DamageMotion: 288
+    Ai: 09
+    Modes:
+      Assist: true
+    Drops:
+      - Item: Particles_Of_Energy3
+        Rate: 100
+  - Id: 20541
+    AegisName: MD_ED_LGTHIGHGUARD
+    Name: Senior Rekenber Guard
+    Level: 174
+    Hp: 1485755
+    Attack: 3161
+    Attack2: 4561
+    Defense: 339
+    MagicDefense: 98
+    Str: 187
+    Agi: 217
+    Vit: 87
+    Int: 110
+    Dex: 251
+    Luk: 106
+    AttackRange: 9
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Neutral
+    ElementLevel: 2
+    WalkSpeed: 120
+    AttackDelay: 854
+    AttackMotion: 276
+    DamageMotion: 264
+    Ai: 09
+    Modes:
+      Assist: true
+    Drops:
+      - Item: Yggdrasilberry
+        Rate: 25
+      - Item: Seed_Of_Yggdrasil
+        Rate: 50
+  - Id: 20542
+    AegisName: MD_ED_LGTGUARD
+    Name: Rekenber Guard
+    Level: 176
+    Hp: 1475486
+    Attack: 3069
+    Attack2: 4509
+    Defense: 346
+    MagicDefense: 96
+    Str: 207
+    Agi: 100
+    Vit: 75
+    Int: 110
+    Dex: 251
+    Luk: 88
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Neutral
+    ElementLevel: 2
+    WalkSpeed: 120
+    AttackDelay: 851
+    AttackMotion: 360
+    DamageMotion: 140
+    Ai: 09
+    Modes:
+      Assist: true
+    Drops:
+      - Item: Yggdrasilberry
+        Rate: 25
+      - Item: Seed_Of_Yggdrasil
+        Rate: 50
+  - Id: 20543
+    AegisName: MD_ED_M_SCIENCE
+    Name: Regenschirm Scientist
+    Level: 172
+    Hp: 1469107
+    Attack: 2950
+    Attack2: 4292
+    Defense: 346
+    MagicDefense: 96
+    Str: 94
+    Agi: 96
+    Vit: 91
+    Int: 277
+    Dex: 246
+    Luk: 94
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Neutral
+    ElementLevel: 2
+    WalkSpeed: 120
+    AttackDelay: 864
+    AttackMotion: 267
+    DamageMotion: 146
+    Ai: 09
+    Modes:
+      Assist: true
+    Drops:
+      - Item: Yggdrasilberry
+        Rate: 25
+      - Item: Seed_Of_Yggdrasil
+        Rate: 50
+      - Item: Lab_Staff_Record
+        Rate: 1000
 
 # eAthena Dev Team
 #=============================================================

@@ -78,10 +78,10 @@ Body:
     SkillRange: 12
     ChaseRange: 1
     Size: Medium
-    Race: Demi-Human
+    Race: Demihuman
     Element: Neutral
     ElementLevel: 1
-    WalkSpeed: DEFAULT_WALK_SPEED
+    WalkSpeed: 150
     AttackDelay: 1000
     AttackMotion: 250
     DamageMotion: 1000
