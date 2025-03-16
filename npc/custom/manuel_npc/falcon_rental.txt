@@ -30,30 +30,21 @@ prontera,128,211,5	script	Falcon Rental Master	105,{
                 // Menu for Falcon options
                 switch (select("Rent a Falcon:Remove the Falcon:Exit")) {
                     case 1: // Rent a Falcon
-                        // Check if the player does not have Wug or Wugrider options
-                        if (!checkoption(Option_Wug) && !checkoption(Option_Wugrider)) {
-                            // If the player does not have a Falcon, set one
-                            if (!checkfalcon()) {
-                                next;
+                        // If the player does not have a Falcon, set one
+                        if (!checkfalcon()) {
+                            next;
 
-                                Zeny -= .cost; // Deduct zeny
-                                setfalcon(1); // Set a Falcon
-                                mes "[ Falcon Rental Master ]";
-                                mes "Your Falcon has been set! Please take care of it.";
-                            } 
-                            else {
-                                next;
-
-                                mes "[ Falcon Rental Master ]";
-                                mes "You already have a Falcon with you.";
-                            }
+                            Zeny -= .cost; // Deduct zeny
+                            setfalcon(1); // Set a Falcon
+                            mes "[ Falcon Rental Master ]";
+                            mes "Your Falcon has been set! Please take care of it.";
                         } 
                         else {
                             next;
 
                             mes "[ Falcon Rental Master ]";
-                            mes "I'm afraid you cannot rent a Falcon while using a Warg or Wargrider.";
-                        }
+                            mes "You already have a Falcon with you.";
+                        }                      
                     	break;
 
                     case 2: // Remove Falcon
