@@ -1,43 +1,68 @@
-prontera,149,167,4	script	Instance Manager	10295,{
-	mes "[ Instance Manager ]";
-	mes "Hello! To reset all instances, you need to pay 1 million Zeny.";
-	mes "Would you like to proceed?";
+prontera,149,167,4	script	Instance Manager	10295,{	
+	mes .name$;
+	mes "Hello, i can reset an instance.";
+	mes "What instance do you want to reset?";
 	next;
-
-	// Prompt the player for confirmation
-	.@choice = select("Yes", "No");
-	if (.@choice == 2) {
-		mes "[ Instance Manager ]";
-		mes "Come back if you change your mind!";
-		close;
+	for(.@i=0;.@i<getarraysize(.instances$);.@i+=5)
+		set .@menu$,.@menu$+.instances$[.@i]+":";
+	set .@ans,select(.@menu$)-1;
+	set .@instance$,.instances$[.@ans*5];
+	set .@qid,atoi(.instances$[(.@ans*5)+1]);
+	set .@item,atoi(.instances$[(.@ans*5)+2]);
+	set .@amt,atoi(.instances$[(.@ans*5)+3]);
+	set .@zeny,atoi(.instances$[(.@ans*5)+4]);
+	next;
+	if(checkquest(.@qid,PLAYTIME)==2 || checkquest(.@qid,PLAYTIME) < 0){
+		mes .name$;
+		mes "Eh? You don't need to reset this instance. You are already allowed to enter it.";
+		end;
 	}
-
-	// Check if the player has enough Zeny
-	.@player_zeny = Zeny;
-	if (.@player_zeny < 1000000) {
-		mes "[ Instance Manager ]";
-		mes "You don't have enough Zeny! You need 1 million Zeny.";
-		close;
+	mes .name$;
+	mes "So you want to reset ^FF0000"+.@instance$+"^000000?";
+	mes "It will cost you: ";
+	if(.@item)
+	mes ""+.@amt+"x ^0000FF"+getitemname(.@item)+"^000000";
+	if(.@zeny)
+	mes "and ^0000FF"+.@zeny+"^000000 Zeny!";
+	mes "Would you like to reset now?";
+	next;
+	if(select("Yes, Please Reset:No sorry")==2){
+		mes .name$;
+		mes "Okay, Please come at me again once you decided";
+		end;
 	}
+	close2;
+	if(.@item && countitem(.@item)<.@amt)
+		goto L_NotEnough;
+	if(.@zeny && Zeny<.@zeny)
+		goto L_NotEnough;
+	if(.@item)
+		delitem .@item,.@amt;
+	Zeny-=.@zeny;
+	erasequest .@qid;
+	message strcharinfo(0),"Instance has been Reset!";
+	end;
 
-	// Deduct 1 million Zeny from the player
-	Zeny -= 1000000;
+L_NotEnough:
+	mes .name$;
+	mes "Sorry! But unfortunately, You don't have the requirements to reset the instance";
+end;
 
-	// Initialize the maps that have instances
-	setarray .map$, "prontera", "izlude";
-	.map_size = getarraysize(.map$); // Get size of map array
-
-	// Loop through the maps and reset instances
-	for (.@i = 0; .@i < .map_size; .@i++) {
-			.@size = instance_list(.map$[.@i]);
-			for (.@x = 0; .@x < .@size; .@x++) {
-				instance_announce .@instance_list[.@x], "<SYSTEM> Instance are destroyed upon reached 12AM everyday.", bc_map;
-				instance_destroy .@instance_list[.@x];
-			}
-		}
-	}
-	// Notify the player about the reset
-	mes "[ Instance Manager ]";
-	mes "All instances have been reset!";
-	close;
+OnInit:
+	// Instance Name, Quest ID, Item ID for Reset,Item Amount, Zeny Amount
+	set .name$,"[ Yumi ]";
+	setarray .instances$[0],
+		"Old Glastheim","12317","30343","10","1000000",
+		"Old Glastheim Hard","12334","30343","10","1000000",
+		"Fall of Glastheim","12460","30343","10","1000000",
+		"Fall of Glastheim Hard","12461","30343","10","1000000",
+		"Bioresearch Laboratory","16390","30343","10","1000000",
+		"Ghost Palace","1261","30343","10","1000000",
+		"Faceworm Nest","12325","30343","10","1000000",
+		"Sarah Memories","15002","30343","10","1000000",
+		"Water Garden","16439","30343","10","1000000",
+		"Tomb Of Remorse","60200","30343","10","1000000",
+		"Wolfchev's Laboratory","5112","30343","10","1000000";
+end;
+	
 }
