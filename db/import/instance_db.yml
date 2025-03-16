@@ -40,3 +40,13 @@
 Header:
   Type: INSTANCE_DB
   Version: 2
+
+Body:
+  - Id: 60
+    Name: Old Glast Heim Hard
+    Enter:
+      Map: 1@gl_k2
+      X: 150
+      Y: 20
+    AdditionalMaps:
+      2@gl_k2: true

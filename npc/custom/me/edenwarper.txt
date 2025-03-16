@@ -12,7 +12,7 @@
 //= 
 //============================================================
 
-prontera,164,168,3	script	Eden Warper	714,{
+prontera,164,167,3	script	Eden Warper	714,{
 	mes "Warper";
 	mes "Hey there";
 	mes "with my secret arts i can warp you to eden group.";

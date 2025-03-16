@@ -1,0 +1,44 @@
+prontera,149,167,4	script	Instance Manager	10295,{
+	mes "[ Instance Manager ]";
+	mes "Hello! To reset all instances, you need to pay 1 million Zeny.";
+	mes "Would you like to proceed?";
+	next;
+
+	// Prompt the player for confirmation
+	.@choice = select("Yes", "No");
+	if (.@choice == 2) {
+		mes "[ Instance Manager ]";
+		mes "Come back if you change your mind!";
+		close;
+	}
+
+	// Check if the player has enough Zeny
+	.@player_zeny = Zeny;
+	if (.@player_zeny < 1000000) {
+		mes "[ Instance Manager ]";
+		mes "You don't have enough Zeny! You need 1 million Zeny.";
+		close;
+	}
+
+	// Deduct 1 million Zeny from the player
+	Zeny -= 1000000;
+
+	// Initialize the maps that have instances
+	setarray .map$, "prontera", "izlude";
+	.map_size = getarraysize(.map$); // Get size of map array
+
+	// Loop through the maps and reset instances
+	for (.@i = 0; .@i < .map_size; .@i++) {
+			.@size = instance_list(.map$[.@i]);
+			for (.@x = 0; .@x < .@size; .@x++) {
+				instance_announce .@instance_list[.@x], "<SYSTEM> Instance are destroyed upon reached 12AM everyday.", bc_map;
+				instance_destroy .@instance_list[.@x];
+			}
+		}
+	}
+	continue;
+	// Notify the player about the reset
+	mes "[ Instance Manager ]";
+	mes "All instances have been reset!";
+	close;
+}

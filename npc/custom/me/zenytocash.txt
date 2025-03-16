@@ -7,11 +7,12 @@ prontera,141,176,5	script	Cash Converter	10295,{
 	.@countitem = countitem(.@item);	// Count item
 
 	mes "[ Cash Converter ]";
-	mes "Hello! I can exchange your items or Zeny for Cash Points.";
+	mes "Hello! I can exchange your Activity Token or Zeny for Cash Points.";
+	mes "I can also exchange your Cash to Zeny.";
 	mes "What would you like to do?";
 	next;
 
-	.@choice = select("- Convert Items","- Convert Zeny","- Cancel");
+	.@choice = select("- Convert Activity Token to Cash","- Convert Zeny to Cash","- Convert Cash to Zeny","- Cancel");
 
 	if (.@choice == 1) { // Item Conversion
 		if (.@countitem < 1) {
@@ -66,6 +67,35 @@ prontera,141,176,5	script	Cash Converter	10295,{
 		message .@name$, "You received "+ .@convert_cash +" Cash Points.";
 		mes "[ Cash Converter ]";
 		mes "Zeny successfully converted!";
+		close;
+	}
+
+	else if (.@choice == 3) { // Cash to Zeny Conversion
+		mes "[ Cash Converter ]";
+		mes "Exchange Rate: ^0000FF"+.@zeny_rate+"^000000 Zeny = 1 Cash Point.";
+		mes "How many Cash Points do you want to convert back to Zeny?";
+		input .@convert_cash;
+
+		// Cash to Zeny Conversion: 1 Cash Point = 1000 Zeny
+		.@convert_zeny = .@convert_cash * .@zeny_rate;
+
+		if (.@convert_cash < 1) {
+			mes "Invalid amount!";
+			close;
+		}
+
+		if (.@convert_cash > #CASHPOINTS) { // Ensure player has enough Cash Points
+			mes "You don't have enough Cash Points!";
+			close;
+		}
+
+		progressbar "0x11CC99",1;
+		specialeffect2 EF_REMOVETRAP;
+		#CASHPOINTS -= .@convert_cash;
+		Zeny += .@convert_zeny; // Add Zeny equivalent of Cash Points
+		message .@name$, "You received "+ .@convert_zeny +" Zeny.";
+		mes "[ Cash Converter ]";
+		mes "Cash Points successfully converted to Zeny!";
 		close;
 	}
 
