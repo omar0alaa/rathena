@@ -1,4 +1,4 @@
-prontera,149,167,4	script	Instance Manager	10295,{	
+prontera,149,167,4	script	Instance Manager	10192,{	
 	mes .name$;
 	mes "Hello, i can reset an instance.";
 	mes "What instance do you want to reset?";
@@ -61,7 +61,8 @@ OnInit:
 		"Faceworm Nest","12325","30343","10","1000000",
 		"Sarah Memories","15002","30343","10","1000000",
 		"Water Garden","16439","30343","10","1000000",
-		"Tomb Of Remorse","60200","30343","10","1000000",
+		"Tomb Of Remorse","16464","30343","10","1000000",
+		"Constellation Tower","12514","30343","10","1000000",
 		"Wolfchev's Laboratory","5112","30343","10","1000000";
 end;
 	

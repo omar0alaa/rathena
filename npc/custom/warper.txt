@@ -677,7 +677,7 @@ G8: Restrict("RE");
 	Instances:
 // --------------------------------------------------
 menu	"Bioresearch Laboratory 170",I22,"Bakonawa Lake",I1, "Bangungot Hospital 2F",I2, "Buwaya Cave",I3,
-		"Devil Tower",I4, "Eclage Interior",I5, "Endless Tower",I6, 
+		"Constellation Tower 240",I23,"Devil Tower",I4, "Eclage Interior",I5, "Endless Tower",I6, 
 		"Faceworms Nest",I7,"Fall Of Glastheim",I21, "Geffen Magic Tournament",I8, "Ghost Palace",I9,
 		"Hazy Forest",I10, "Horror Toy Factory",I11, "Malangdo Culvert",I12,
 		"Nidhoggur's Nest",I13, "Octopus Cave",I14, "Old Glast Heim (Normal/hard) 130/170",I15,
@@ -724,6 +724,8 @@ I21: Restrict("RE");
 	Go("glast_01",241,290);
 I22: Restrict("RE");
 	Go("yuno",212,343);
+I23: Restrict("RE");
+	Go("alberta",219,81);
 // --------------------------------------------------
 	Special:
 // --------------------------------------------------

@@ -233,3 +233,128 @@ Body:
           - Index: 0
             Item: Mine_As
             Amount: 700
+  - Name: ctower_shop
+    Items:
+      - Index: 0
+        Item: Meteorite_Fragment
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Dust
+            Amount: 50
+      - Index: 1
+        Item: Vague_Star_Robe
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Fragment
+            Amount: 50
+          - Index: 1
+            Item: Naght_Sieger_Soul
+            Amount: 5
+      - Index: 2
+        Item: Vague_Star_Suit
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Fragment
+            Amount: 50
+          - Index: 1
+            Item: Naght_Sieger_Soul
+            Amount: 5
+      - Index: 3
+        Item: Vague_Star_Armor
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Fragment
+            Amount: 50
+          - Index: 1
+            Item: Naght_Sieger_Soul
+            Amount: 5
+      - Index: 4
+        Item: Star_Armor_Of_Pow
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Fragment
+            Amount: 50
+          - Index: 1
+            Item: Pow_Meteorite_Dust
+            Amount: 30
+          - Index: 2
+            Item: Betelgeuse_Soul
+            Amount: 10
+          - Index: 3
+            Item: Vague_Star_Armor
+            Amount: 1
+      - Index: 5
+        Item: Star_Armor_Of_Sta
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Fragment
+            Amount: 50
+          - Index: 1
+            Item: Sta_Meteorite_Dust
+            Amount: 30
+          - Index: 2
+            Item: Betelgeuse_Soul
+            Amount: 10
+          - Index: 3
+            Item: Vague_Star_Armor
+            Amount: 1
+      - Index: 6
+        Item: Star_Suit_Of_Con
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Fragment
+            Amount: 50
+          - Index: 1
+            Item: Con_Meteorite_Dust
+            Amount: 30
+          - Index: 2
+            Item: Betelgeuse_Soul
+            Amount: 10
+          - Index: 3
+            Item: Vague_Star_Suit
+            Amount: 1
+      - Index: 7
+        Item: Star_Suit_Of_Crt
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Fragment
+            Amount: 50
+          - Index: 1
+            Item: Crt_Meteorite_Dust
+            Amount: 30
+          - Index: 2
+            Item: Betelgeuse_Soul
+            Amount: 10
+          - Index: 3
+            Item: Vague_Star_Suit
+            Amount: 1
+      - Index: 8
+        Item: Star_Robe_Of_Spl
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Fragment
+            Amount: 50
+          - Index: 1
+            Item: Spl_Meteorite_Dust
+            Amount: 30
+          - Index: 2
+            Item: Betelgeuse_Soul
+            Amount: 10
+          - Index: 3
+            Item: Vague_Star_Robe
+            Amount: 1
+      - Index: 9
+        Item: Star_Robe_Of_Wis
+        RequiredItems:
+          - Index: 0
+            Item: Meteorite_Fragment
+            Amount: 50
+          - Index: 1
+            Item: Wis_Meteorite_Dust
+            Amount: 30
+          - Index: 2
+            Item: Betelgeuse_Soul
+            Amount: 10
+          - Index: 3
+            Item: Vague_Star_Robe
+            Amount: 1
