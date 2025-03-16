@@ -50,6 +50,7 @@ Header:
   Version: 3
 
 Body:
+#OGH Hard
   - Id: 12334
     Title: Trace of Time Travel
     TimeLimit: +70h
@@ -69,3 +70,24 @@ Body:
     Title: Time Traveler
   - Id: 12339
     Title: Time Conqueror
+#Edda
+  - Id: 12457
+    Title: Glastheim's Fall
+  - Id: 12458
+    Title: The Orb's Origin
+  - Id: 12459
+    Title: King's Sacrifice
+    Targets:
+      - Mob: MD_GH_KING_SCHMIDT_N
+        Count: 1
+  - Id: 12460                                  
+    Title: Purification of Glastheim - Cooldown
+    TimeLimit: 4h
+  - Id: 12461                                  
+    Title: Purification of Glastheim Hard- Cooldown
+    TimeLimit: 4h
+  - Id: 12462
+    Title: King's Sacrifice
+    Targets:
+      - Mob: MD_GH_KING_SCHMIDT_H
+        Count: 1

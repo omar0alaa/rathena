@@ -50,3 +50,24 @@ Body:
       Y: 20
     AdditionalMaps:
       2@gl_k2: true
+
+  - Id: 62
+    Name: Glastheim Purification
+    Enter:
+      Map: 1@gl_prq
+      X: 79
+      Y: 22
+      
+  - Id: 63
+    Name: Glastheim Purification Hard
+    Enter:
+      Map: 1@gl_prq
+      X: 79
+      Y: 22
+      
+  - Id: 64
+    Name: Glastheim Fall
+    Enter:
+      Map: 1@gl_prq
+      X: 299
+      Y: 18

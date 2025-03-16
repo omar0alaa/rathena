@@ -98,6 +98,54 @@ Body:
     Weight: 10
     Script: |
       laphine_synthesis();
+
+# Edda Glast Heim Items
+  - Id: 25739
+    AegisName: GH_Cursed_Crystal
+    Name: Eroded Cursed Crystal
+    Type: Etc
+  - Id: 25740
+    AegisName: GH_Cursed_Gemstone
+    Name: Eroded Cursed Gemstone
+    Type: Etc
+  - Id: 29587
+    AegisName: GH_Flash
+    Name: Flash
+    Type: Card
+    Buy: 20
+    Weight: 10
+  - Id: 29588
+    AegisName: GH_Strong
+    Name: Strong
+    Type: Card
+    Buy: 20
+    Weight: 10
+  - Id: 29589
+    AegisName: GH_Celestial_Bow
+    Name: Celestial Bow
+    Type: Card
+    Buy: 20
+    Weight: 10
+  - Id: 29590
+    AegisName: GH_Divine_Power
+    Name: Divine Power
+    Type: Card
+    Buy: 20
+    Weight: 10
+  - Id: 29591
+    AegisName: GH_Rigid
+    Name: Rigid
+    Type: Card
+    Buy: 20
+    Weight: 10
+  - Id: 29592
+    AegisName: GH_White_Cloud
+    Name: White Cloud
+    Type: Card
+    Buy: 20
+    Weight: 10
+
+
 # THQ Quest Items
 #=============================================================
 #  - Id: 1999

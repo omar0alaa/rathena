@@ -266,6 +266,12 @@ function	script	validate_itemid	{
 	return getiteminfo(getarg(0), ITEMINFO_TYPE);
 }
 
+// For Edda Glastheim File (npc/re/instances/Edda_Glastheim.c)
+function	script	instance_effect	{
+    specialeffect getarg(0), AREA, getarg(1);
+    return;
+}
+
 //= DUMMY NPC's
 -	script(CLOAKED)	dummynpc	-1,{
 	end;
