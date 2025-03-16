@@ -80,3 +80,11 @@ Body:
       Y: 35
     AdditionalMaps:
        1@gol2: true
+
+  - Id: 121
+    Name: Tomb of Remorse
+    TimeLimit: 3600
+    Enter:
+      Map: 1@spa2
+      X: 52
+      Y: 198
