@@ -1,0 +1,37 @@
+prontera,151,187,3	script	Storage Manager	10403,{
+    mes "[ Storage Box ]";
+    mes "Which storage do you want to open?";
+    next;
+    switch(select("Normal Storage","Storage1","Storage2","Storage3","Storage4")) {
+        case 1:
+            mes "[ Storage Box ]";
+            mes "Storage will be opened. Thank you";
+            close2;
+            openstorage;
+            break;
+        case 2:
+            mes "[ Storage Box ]";
+            mes "Storage 1 will be opened";
+            close2;
+            openstorage2(1,STOR_MODE_GET|STOR_MODE_PUT);
+            break;
+        case 3:
+            mes "[ Storage Box ]";
+            mes "Storage 2 will be opened";
+            close2;
+            openstorage2(2,STOR_MODE_GET|STOR_MODE_PUT);
+            break;
+        case 4:
+            mes "[ Storage Box ]";
+            mes "Storage 3 will be opened";
+            close2;
+            openstorage2(3,STOR_MODE_GET|STOR_MODE_PUT);
+            break;
+        case 5:
+            mes "[ Storage Box ]";
+            mes "Storage 4 will be opened";
+            close2;
+            openstorage2(4,STOR_MODE_GET|STOR_MODE_PUT);
+            break;
+    }
+}

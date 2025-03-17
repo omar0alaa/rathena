@@ -36,8 +36,20 @@ Header:
   Type: INTER_SERVER_DB
   Version: 1
 
-#Body:
-#   - ID: 1
-#     Name: "VIP Storage"
-#     Table: vip_storage
-#     Max: 300
+Body:
+   - ID: 1
+     Name: "VIP Storage"
+     Table: vip_storage
+     Max: 600
+   - ID: 2
+     Name: "VIP Storage"
+     Table: vip_storage1
+     Max: 600
+   - ID: 3
+     Name: "VIP Storage"
+     Table: vip_storage2
+     Max: 600
+   - ID: 4
+     Name: "VIP Storage"
+     Table: vip_storage3
+     Max: 600
