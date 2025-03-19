@@ -11,12 +11,16 @@ prontera,147,147,5	script	Illusion Dungeon Master	10180,{
 		close;
 	}
 
-	// Check if the player has already completed quest 3470
-	if (checkquest(3470, PLAYTIME_COMPLETE)) {
+	// Store the quest status in a local variable (player-specific)
+	.@quest_status = checkquest(3470, PLAYTIME);
+
+	// Properly check quest status using local variables
+	if (.@quest_status == 2) {
 		mes "[Illusion Dungeons Master]";
 		mes "You have already joined us. No need to register again.";
 		close;
 	}
+
 
 	mes "[Illusion Dungeons Master]";
 	mes "You meet the level requirement.";
